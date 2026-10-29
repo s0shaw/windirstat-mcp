@@ -1,0 +1,18 @@
+[project]
+name = "windirstat-mcp"
+version = "0.1.0"
+description = "MCP server that scans Windows drives with WinDirStat and reports cleanup candidates"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+windirstat-mcp = "windirstat_mcp:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["windirstat_mcp"]

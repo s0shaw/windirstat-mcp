@@ -1,4 +1,4 @@
-# windirstat-mcp
+﻿# windirstat-mcp
 
 An [MCP](https://modelcontextprotocol.io) server that lets an AI assistant scan Windows drives with
 [WinDirStat](https://windirstat.net) and report what can be cleaned up.
@@ -27,7 +27,7 @@ It scans the path, writes one CSV row per file and folder, and exits. The server
 Requirements: Windows, Python 3.9+, [WinDirStat 2.x](https://github.com/windirstat/windirstat/releases).
 
 ```
-pip install git+https://github.com/<you>/windirstat-mcp
+pip install git+https://github.com/s0shaw/windirstat-mcp
 ```
 
 The server finds `WinDirStat.exe` in this order: `WINDIRSTAT_EXE` env var, next to the script, `PATH`,

@@ -1,4 +1,4 @@
-﻿# windirstat-mcp
+# windirstat-mcp
 
 An [MCP](https://modelcontextprotocol.io) server that lets an AI assistant scan Windows drives with
 [WinDirStat](https://windirstat.net) and report what can be cleaned up.
